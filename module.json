@@ -1,0 +1,14 @@
+{
+    "id": "{6b5d5e59-86c5-4147-9316-1f0aa5eaed28}",
+    "name": "SymconYahooWeather",
+    "type": 3,
+    "vendor": "",
+    "aliases": 
+    [
+        "Wetteranzeige Yahoo"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "YWH"
+}
