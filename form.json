@@ -1,0 +1,28 @@
+{
+  "elements":
+  [
+    { "type": "ValidationTextBox", "name": "Mi1", "caption": "Hallo Welt" },
+		]
+	},
+	{ "type": "Select", "name": "YWHDays", "caption": "Anzeige Tage",
+		"options": [
+			{ "label": "1 Tag anzeigen (min)", "value":"1" },
+			{ "label": "2 Tage anzeigen", "value":"2" },
+
+		]
+	},
+	{ "type": "Select", "name": "YWHDisplay", "caption": "Anzeige HTMLBox",
+		"options": [
+			{ "label": "Bild und Text", "value":"1" },
+			{ "label": "Nur Bild", "value":"2" }
+		]
+	},
+	{ "type": "IntervalBox", "name": "YWHImageZoom", "caption": "Bild-Zoom (%)" }
+  ], 
+  "actions":
+  [
+
+    { "type": "Button", "label": "Update", "onClick": "YWH_Update($id);" }
+
+  ]
+}
