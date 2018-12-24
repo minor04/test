@@ -1,14 +1,14 @@
 {
     "id": "{6b5d5e59-86c5-4147-9316-1f0aa5eaed28}",
-    "name": "SymconYahooWeather",
+    "name": "TestModul",
     "type": 3,
     "vendor": "",
     "aliases": 
     [
-        "Wetteranzeige Yahoo"
+        "Test Module Minor04"
     ],
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "YWH"
+    "prefix": "Mi4"
 }
