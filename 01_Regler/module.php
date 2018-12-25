@@ -8,7 +8,7 @@
 			parent::Create();
 			
 			$this->RegisterPropertyInteger("SourceVariable", 0);
-			$this->RegisterPropertyString("Formula", "\$Value/10*sin(30)*pi()");
+			$this->RegisterPropertyString("Formula", "\$Value*20");
 			
 			$this->RegisterVariableFloat("Value", "Value", "", 0);
 		}
