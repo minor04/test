@@ -3,7 +3,10 @@
     "author": "minor04",
     "name": "TestModul",
     "url": "https://github.com/minor04/test.git",
-    "version": "4.5",
-    "build": 0,
-    "date": 0
+	"compatibility": {
+		"version": "4.2"
+	},
+	"version": "1.0",
+	"build": 0,
+	"date": 0
 }
