@@ -1,14 +1,14 @@
 {
     "id": "{6b5d5e59-86c5-4147-9316-1f0aa5eaed28}",
-    "name": "TestModul",
-    "type": 3,
-    "vendor": "",
-    "aliases": 
-    [
-        "Test Module Minor04"
-    ],
-    "parentRequirements": [],
-    "childRequirements": [],
-    "implemented": [],
-    "prefix": "Mi4"
+	"name": "Umrechnen",
+	"type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"Umrechnen"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "UMR"
 }
