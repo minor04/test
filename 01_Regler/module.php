@@ -11,7 +11,7 @@
 			$this->RegisterPropertyString("Formula", "\$Value*20");
 			
 			$this->RegisterVariableFloat("Value", "Value", "", 0);
-			$this->RegisterVariableFloat("Value", "Temp", "", 10);
+			$this->RegisterVariableFloat("test", "test", "", 10);
 		}
 	
 		public function ApplyChanges()
