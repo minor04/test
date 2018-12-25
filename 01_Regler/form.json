@@ -1,0 +1,15 @@
+{
+    "elements":
+    [
+        {"type": "Button", "caption": "Symcon", "onClick": "echo 'https://www.symcon.de'"}
+ 
+    ],
+    "actions":
+    [
+        
+    ],
+    "status":
+    [
+        
+    ]
+}
