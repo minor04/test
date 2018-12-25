@@ -1,11 +1,11 @@
 {
     "id": "{6b5d5e59-86c5-4147-9316-1f0aa5eaed28}",
-	"name": "H_Regler",
+	"name": "ERR",
 	"type": 3,
 	"vendor": "",
 	"aliases": 
 	[
-		"Heizungs_Regler"
+		"ERR"
 	],
 	"parentRequirements": [],
 	"childRequirements": [],
