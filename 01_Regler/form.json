@@ -7,6 +7,7 @@
 	"actions":
 	[
 		{ "name": "Value", "type": "ValidationTextBox", "caption": "Value" },
+		{ "name": "test", "type": "ValidationTextBox", "caption": "test" },
 		{ "type": "Button", "label": "Calculate", "onClick": "echo UMR_Calculate($id, $Value);" }
 	]
 }
