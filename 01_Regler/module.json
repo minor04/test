@@ -5,10 +5,10 @@
 	"vendor": "",
 	"aliases": 
 	[
-		"Umrechnen"
+		"Regler"
 	],
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
-	"prefix": "UMR"
+	"prefix": "Mi4"
 }
