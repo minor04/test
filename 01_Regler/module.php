@@ -45,16 +45,17 @@
 		* UMR_Calculate($id);
 		*
 		*/
-		//public function Calculate(float $Value)
-		//{
-			
-			//eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
-			
-			//return $Value;
 		
-		//}
+		public function Calculate01(float $Value)
+		{
+			
+			eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
+			
+			return $Value;
 		
-		public function Calculate(float $test)
+		}
+		
+		public function Calculate02(float $test)
 		{
 			
 			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
