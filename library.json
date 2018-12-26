@@ -1,8 +1,8 @@
 {
-    "id": "{a1c08510-29cd-4be5-b6be-1aba780ec4fa}",
+    "id": "{74a163d4-2caa-4496-a030-6ac8e9560333}",
 	"author": "Minor",
-	"name": "Misc Modules",
-	"url": "www.ip-symcon.de",
+	"name": "Formatierung",
+	"url": "https://github.com/minor04/Formatierung.git",
 	"compatibility": {
 		"version": "4.2"
 	},
