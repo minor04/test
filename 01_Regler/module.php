@@ -32,6 +32,7 @@
 				}
 				IPS_SetEventTrigger($eid, 0, $this->ReadPropertyInteger("SourceVariable"));
 				IPS_SetEventScript($eid, "SetValue(IPS_GetObjectIDByIdent(\"Value\", \$_IPS['TARGET']), UMR_Calculate(\$_IPS['TARGET'], \$_IPS['VALUE']));");
+				IPS_SetEventScript($eid, "SetValue(IPS_GetObjectIDByIdent(\"test\", \$_IPS['TARGET']), UMR_Calculate(\$_IPS['TARGET'], \$_IPS['VALUE']));");
 				IPS_SetEventActive($eid, true);
 			}
 			
