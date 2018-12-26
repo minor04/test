@@ -1,5 +1,5 @@
 <?
-	class Umrechnen extends IPSModule
+	class Regler extends IPSModule
 	{
 		
 		public function Create()
