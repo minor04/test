@@ -13,7 +13,7 @@
 			$this->RegisterPropertyString("temp", "\$test*20");
 			
 			$this->RegisterVariableFloat("Value", "Value", "", 0);
-			$this->RegisterVariableFloat("test", "test", "", 10);
+			$this->RegisterVariableFloat("test", "test", "", 0);
 		}
 	
 		public function ApplyChanges()
@@ -59,9 +59,11 @@
 		public function CalculateB()//(float $test)
 		{
 			
-			$testValue = $this->GetValue("test");
+			//$testValue = $this->GetValue("test");
 			
-			return $test;
+			$this->SetValue("test", "testIn");
+			
+			//return $test;
 		
 		}
 	
