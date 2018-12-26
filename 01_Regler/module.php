@@ -8,6 +8,7 @@
 			parent::Create();
 			
 			$this->RegisterPropertyInteger("SourceVariable", 0);
+			$this->RegisterPropertyInteger("testIn", 0);
 			$this->RegisterPropertyString("Formula", "\$Value*20");
 			$this->RegisterPropertyString("temp", "\$test*20");
 			
