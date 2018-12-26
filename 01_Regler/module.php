@@ -55,7 +55,7 @@
 		
 		}
 		
-		public function CalculateB(float $test)
+		public function CalculateB()//(float $test)
 		{
 			
 			$testValue = $this->GetValue("test");
