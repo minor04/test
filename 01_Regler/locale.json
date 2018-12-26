@@ -5,7 +5,8 @@
 			"Formula": "Formel",
 			"Value": "Wert",
 			"Calculate": "Berechne",
-			"test": "Versuch"
+			"test": "Versuch",
+			"testIn": "VersuchEin"
 		}
 	}
 }
