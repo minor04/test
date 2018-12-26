@@ -9,7 +9,7 @@
 			
 			$this->RegisterPropertyInteger("SourceVariable", 0);
 			$this->RegisterPropertyString("Formula", "\$Value*20");
-			$this->RegisterPropertyString("Formula", "\$test*20");
+			$this->RegisterPropertyString("temp", "\$test*20");
 			
 			$this->RegisterVariableFloat("Value", "Value", "", 0);
 			$this->RegisterVariableFloat("test", "test", "", 10);
