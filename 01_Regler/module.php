@@ -54,7 +54,7 @@
 		
 		}
 		
-		public function Calculate(float $Value)
+		public function Calculate(float $test)
 		{
 			
 			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
