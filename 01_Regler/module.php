@@ -58,7 +58,7 @@
 		public function CalculateB(float $test)
 		{
 			
-			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
+			$testValue = $this->GetValue("test");
 			
 			return $test;
 		
