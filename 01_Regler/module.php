@@ -47,14 +47,14 @@
 		*
 		*/
 		
-		public function CalculateA(float $Value)
-		{
+		//public function CalculateA(float $Value)
+		//{
 			
-			eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
+			//eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
 			
-			return $Value;
+			//return $Value;
 		
-		}
+		//}
 		
 		public function CalculateB()//(float $test)
 		{
