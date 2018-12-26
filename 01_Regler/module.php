@@ -46,7 +46,7 @@
 		*
 		*/
 		
-		public function Calculate01(float $Value)
+		public function CalculateA(float $Value)
 		{
 			
 			eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
@@ -55,7 +55,7 @@
 		
 		}
 		
-		public function Calculate02(float $test)
+		public function CalculateB(float $test)
 		{
 			
 			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
