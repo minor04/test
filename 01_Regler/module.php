@@ -49,9 +49,16 @@
 		{
 			
 			eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
-			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
 			
 			return $Value;
+		
+		}
+		
+		public function Calculate(float $Value)
+		{
+			
+			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
+			
 			return $test;
 		
 		}
