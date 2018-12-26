@@ -49,8 +49,10 @@
 		{
 			
 			eval("\$Value = " . $this->ReadPropertyString("Formula") . ";");
+			eval("\$test = " . $this->ReadPropertyString("temp") . ";");
 			
 			return $Value;
+			return $test;
 		
 		}
 	
